@@ -573,7 +573,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -7780037301903468164, guid: 2bf7a75451f8b834987b5d746658e922,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -856,7 +856,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4209461767521648114, guid: 552aeaa234dcb9747a1d1bd14b56cdcd,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461468039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.58, y: 1.1, z: 0}
+  m_LocalPosition: {x: 7.54, y: 1.28, z: 0}
   m_LocalScale: {x: 2.1997774, y: 2.1997774, z: 2.1997774}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1469,8 +1469,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 911166388}
+  selectedCommands:
+  - {fileID: 911166386}
   variables:
   - {fileID: 911166344}
   - {fileID: 911166367}
@@ -4804,7 +4806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 335b2a6d4453e45d099a8793ab7745ce, type: 3}
+  musicClip: {fileID: 8300000, guid: 8e50a83763ffe4d22b4878551032b38d, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 0.5
